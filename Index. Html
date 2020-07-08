@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Lorem</title>
+ <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+<script src="https://kit.fontawesome.com/a076d05399.js"></script> <link rel="stylesheet" href="style.css" title="styling" type="text/css" />
+</head> 
+
+<body> 
+<!--navigation menu--> 
+<nav class="nav"> 
+<ol class="nav_list">
+ <li>
+<a href="#" style="color :#000 ;">Home</a></li> 
+<li>
+<a href="#">Link1</a></li>
+ <li><a href="#">Link2</a></li> 
+<li><a href="#">Link3</a></li>
+ <li><a href="#">Link4</a></li>
+ </ol> </nav> <!--hero text--> <article class="start"> <h1 class="start_head" >START PAGE</h1> 
+<p class="start_para" >Template by w3.css</p> <button class="start_btn" type="submit">Get Started </button> </article> <article class="img_right"> <section class="lorem"> <h2 class="lorem_header">Lorem Ipsum</h2> 
+<p class="lorem_p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla architecto quia sint, assumenda odio. Provident repellendus repudiandae, praesentium amet, aliquid ex accusamus corrupti autem, eligendi architecto voluptas quibusdam beatae saepe eveniet sint dolore blanditiis aliquam, doloribus nisi quos a! Nulla sequi accusantium aut aliquid sapiente quis necessitatibus reprehenderit atque provident.</p> 
+<p class="lorem_p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam error ea aliquid iste quaerat eveniet veritatis id, doloribus maiores nesciunt repellat at doloremque omnis ex minus veniam quibusdam iusto eos amet! Accusantium temporibus officia modi perspiciatis voluptatum dolores molestias, omnis eius aspernatur eaque dolore sequi quod explicabo veniam possimus sunt repellat illo, aut quasi voluptatibus nam voluptatem. Itaque quasi harum, asperiores sint accusamus non porro neque eos assumenda quas, amet excepturi rerum ducimus. Assumenda, reprehenderit neque autem tempore totam! Doloremque alias itaque repudiandae minima incidunt neque quidem fugit eius, nobis delectus ex tempore eum, rem aut esse doloribus et repellendus.</p> 
+</section> 
+<i class="fas fa-anchor" style="color:#ff2400"></i> 
+</article> 
+<!--second lorem--> 
+<article class="img_left"> 
+<i class="fas fa-coffee" style="color:#ff2400"></i>
+ <section class="lorem"> <h2 class="lorem_header">Lorem Ipsum</h2> 
+<p class="lorem_p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla architecto quia sint, assumenda odio. Provident repellendus repudiandae, praesentium amet, aliquid ex accusamus corrupti autem, eligendi architecto voluptas quibusdam beatae saepe eveniet sint dolore blanditiis aliquam, doloribus nisi quos a! Nulla sequi accusantium aut aliquid sapiente quis necessitatibus reprehenderit atque provident.</p> 
+<p class="lorem_p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam error ea aliquid iste quaerat eveniet veritatis id, doloribus maiores nesciunt repellat at doloremque omnis ex minus veniam quibusdam iusto eos amet! Accusantium temporibus officia modi perspiciatis voluptatum dolores molestias, omnis eius aspernatur eaque dolore sequi quod explicabo veniam possimus sunt repellat illo, aut quasi voluptatibus nam voluptatem. Itaque quasi harum, asperiores sint accusamus non porro neque eos assumenda quas, amet excepturi rerum ducimus. Assumenda, reprehenderit neque autem tempore totam! Doloremque alias itaque repudiandae minima incidunt neque quidem fugit eius, nobis delectus ex tempore eum, rem aut esse doloribus et repellendus.</p> 
+</section>
+ </article>
+ <div class="quote"> <p class="quote_para">Quote of the day :live life </p> </div> <footer> <i class="fab fa-facebook-square"></i> 
+<i class="fab fa-instagram"></i> 
+<i class="fab fa-snapchat"></i> 
+<i class="fab fa-pinterest-p"></i>
+ <i class="fab fa-twitter"></i>
+ <i class="fab fa-linkedin-in"></i>
+ </footer> <a class="power" href="#">Powered by w3.css</a>
+</body>
+</html>
