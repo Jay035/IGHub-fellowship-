@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BYB with Facebook</title>
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0;
+  font-size: 14px;
+
+}
+body{
+  background-color: #f5f5f5;
+}
+li{
+  list-style-type: none;
+}
+
+.container{
+  width:80%;
+  margin: auto;
+}
+
+:root{
+  --primary-color: #1977f2;
+  --hover-color: #095dca;
+}
+
+header{
+  background-color: var(--primary-color);
+  padding: .5rem 1rem
+}
+
+header h1{
+  color: #fff;
+  font-size: 1.3rem;
+}
+.icons{
+  font-size: 2px;
+  padding-left: 70rem;
+}
+
+section .all {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-column-gap:3.5rem ;
+}
+
+.sidebar li{
+  padding: 1rem .8rem;
+  border-top: solid #222 1px
+}
+
+.sidebar li:hover{
+  background-color: var(--primary-color);
+  color: #fff;
+  transition: all ease-in .2s;
+  cursor: pointer;
+}
+
+.sidebar .active{
+  background-color: var(--primary-color);
+  color: #fff;
+  border-top: none;
+}
+
+.main-content h1{
+  font-size: 1.7rem;
+}
+.main-content h3{
+  font-size:1.2rem ;
+}
+
+.main-content ol{
+   margin: 2rem 0rem
+}
+.main-content ol li{
+  list-style-type: decimal;
+  line-height: 1.8rem;
+}
+
+.main-content input{
+  background-color: var(--primary-color);
+  border:none;
+  padding: 1rem 4rem;
+  color:#fff;
+  border-radius:5px;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+.main-content input:hover{
+  background-color: var(--hover-color);
+  transition: all ease-in .2s;
+}
+
+.stats-area{
+  margin-top: 3rem;
+}
+.stats-card{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 1rem;
+}
+
+.stats-card .stat{
+  background-color: #fff;
+  padding:.8rem 2rem;
+  margin-right: 1rem;
+  border-radius: 2px;
+}
+
+footer{
+  background-color: var(--primary-color);
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  color: #fff;
+  padding: 1rem 0rem;
+}
+
+
+
+  </style>
+  
+</head>
+<body>
+  <header>
+    <div class="container">
+    <div class="logo">
+      <h1>BYB <span style="font-weight: 300;">| with Facebook</span></h1>
+    </div>
+      <div class="icons">
+          <img src="unnamed.png">
+          <img src="contact.jpeg">
+      </div>
+    </div>
+  </header>
+<!-- All page content here-->
+  <section class="main">
+    <div class="container all">
+      <!--Sidebar starts here-->
+      <div class="sidebar">
+        <ul>
+          <li class="active">Trainers Dashboard</li>
+          <li>Book Session</li>
+          <li>Check Session Status</li>
+          <li>Send Report</li>
+          <li>All Reports</li>
+          <li>Download Resources</li>
+          <li>My payments</li>
+          <li>Account Settings</li>
+          <li>Join our community</li>
+        </ul>
+      </div>
+        <!--Sidebar ends here-->
+        <!--Main page content starts here-->
+      <div class="main-content">
+        <h1>Welcome to trainer's name</h1>
+        <h3>Carefully read before you proceed</h3>
+
+        <ol>
+          <li>Update your profile and bank details before you proceed!</li>
+          <li>Carefully check the information you enter while booking a session</li>
+          <li>You can only book a session at least 7 days before the proposed date</li>
+          <li>Remember to log in and check for the session approbal before due date</li>
+          <li>Reports are to be made within 24 hours of training</li>
+        </ol>
+        <input type="button" value="Edit profile and continue">
+        <div class="stats-area">
+        <h2>Training Statistics</h2>
+        <div class="stats-card">
+          <div class="stat">
+            <h1>782</h1>
+            <p>Total Training booked</p>
+          </div>
+          <div class="stat">
+            <h1>426</h1>
+            <p>Total trainees</p>
+          </div>
+          <div class="stat">
+            <h1 style="color:#21af06">₦726,052</h1>
+            <p>Total earnings</p>
+          </div>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p style="float:left;">Copyright &copy; FbPortal. All Rights Reserved</p>
+      <p style="float: right;"> Made at innovation growth hub Africa</p>
+    </div>
+  </footer>
+  
+</body>
+</html>
