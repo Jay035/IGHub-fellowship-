@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Figma</title>
+<style>
+ *{
+   margin:0
+ }
+ /*navbar*/
+.navbar{
+  width:100%;
+background-color:#1E73E8;
+text-decoration-color: white;
+height: 50px;
+padding-left:50px;
+display: inline-flex;
+
+}
+
+.navbar a{
+ color:white;
+ font-size:20px;
+}
+
+.vl{
+border-left:5px solid white;
+height:8px;
+padding-left:20px;
+padding-top: 30px;
+padding-bottom:5px;
+display: inline-block;
+
+}
+
+.fa-cog
+{
+float: right;
+
+}
+
+.navbar-gear
+{
+    font-size:15px;
+    height:5px;
+    width:2px;
+    display: inline;
+
+    
+
+}
+
+
+/*main*/
+.main{
+  display: grid;
+  grid-template-columns: 30% 60%;
+  background: #fff;
+}
+section.trainer{
+  padding: 4rem;
+}
+section.trainer p{
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-left: 0.8rem;
+}
+p.trainer1,
+p.trainer2{
+  width: 15rem;
+  height: 3rem;
+}
+p.trainer1{
+  color:#fff;
+  background-color: #1E73E8;
+  border-top: 1px solid #444;
+  
+}
+p.trainer2{
+  color: #000;
+  border-top: 1px solid #444;
+}
+
+/*schedule*/
+section.schedule{
+
+}
+.schedule-header{
+  font-size: 20px;
+  font-weight: bold;
+color:#333;
+padding-top: 5rem;
+margin-left: 60px;
+margin-bottom: 50px;
+
+}
+.schedule-instruction{
+  font-size: 24px;
+}
+/*schedule list*/
+.schedule-list{
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.25rem;
+}
+.form-control{
+  background: #e5e5e5;
+
+
+}
+.row1{
+border:1px solid whitesmoke;
+border-radius:0.25rem;
+}
+footer{
+  background-color:#1E73E8;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  color: #fff;
+  padding: 1rem 0rem;
+  margin-bottom: 50rem;
+}
+
+
+</style>
+</head>
+ <body>
+   <div class="navbar">
+     <a class="active">BYB</a> 
+<a class="vl"></a>
+ <a class="navbar" style="color: white;"> with facebook </a>
+<div class="fa-cog">
+<i class="fa fa-cog"></i>
+    </div>
+</div>
+
+<!--trainer's dashboard-->
+<section class="main">
+
+  <section class="trainer">
+    <p class="trainer1"> Trainer's dashboard</p>
+    <p class="trainer2"> Book session</p>
+    <p class="trainer2">All session</p>
+    <p class="trainer2"> Check session status</p>
+    <p class="trainer2"> Send report</p>
+    <p class="trainer2">All report</p>
+    <p class="trainer2"> Download resources</p>
+    <p class="trainer2"> My payments</p>
+    <p class="trainer2"> Account settings</p>
+    <p class="trainer2"> Join our community</p>
+  
+  </section>
+
+<section class="schedule-header">
+<h3>Schedule a training session</h3> 
+
+<p><h4>Please note that you are to fill the form, a minimum of 7 days before your proposed date </h4></p>
+
+ <form> 
+
+   <input style="background:#e5e5e5;margin-top:40px;height:40px;width:20rem;" type="text" class="" placeholder="Josh"> 
+
+<div class="col">
+ <input style="height:40px;width:20rem;"type="text" class="form-control" placeholder="Onwughalu"> </div>
+  <br> 
+<div class="row"> 
+<div class="col">
+ <input style="height:40px;width:20rem;"type="email" class="form-control" placeholder="kreativejosh@gmail.com">
+ </div> 
+<div class="col"> 
+<input style="height:40px;width:20rem;"type="text" class="form-control" placeholder="Name of Organization"> 
+</div> 
+<br> 
+<div class="row"> 
+<div class="col">
+ <input style="height:40px;width:20rem;"type="number" class="form-control" placeholder="Expected number of participants"> 
+</div> 
+<div class="col"> 
+<input style="height:40px;width:20rem;"type="text" class="form-control" placeholder="Training Venue"> </div> 
+<br>
+ <div class="row">
+ <div class="col">
+  <select style="height:40px;width:20rem;"name="LGs" id="" class="form-control">
+ <option value="default" selected disabled>Proposed LG</option> 
+</select> 
+</div> 
+<div class="col"> 
+<input style="height:40px;width:20rem;"type="date" class="form-control" placeholder="Proposed Training Date"> 
+</div>  
+<br> 
+<div class="form-group"> <input style="height:40px;width:20rem;"type="text" name="" id="" class="form-control" placeholder="Proposed time"> </div> 
+<button style="width:20rem;height:40px;background:#1E73E8;" class="btn btn-primary btn-lg btn-block">Save and Continue</button>
+</form>
+</section></section>
+
+
+  <footer>
+    <div class="container">
+      <p style="float:left;">Copyright &copy; FbPortal. All Rights Reserved</p>
+      <p style="float: right;"> Made at innovation growth hub Africa</p>
+    </div>
+  </footer>
+
+</body>
+</html>
